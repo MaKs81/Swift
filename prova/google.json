@@ -1,0 +1,95 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "Via Giovanni Cadolini", 
+          "short_name": "Via Giovanni Cadolini", 
+          "types": [
+            "route"
+          ]
+        }, 
+        {
+          "long_name": "Milano", 
+          "short_name": "Milano", 
+          "types": [
+            "locality", 
+            "political"
+          ]
+        }, 
+        {
+          "long_name": "Milano", 
+          "short_name": "Milano", 
+          "types": [
+            "administrative_area_level_3", 
+            "political"
+          ]
+        }, 
+        {
+          "long_name": "Citt\u00e0 Metropolitana di Milano", 
+          "short_name": "MI", 
+          "types": [
+            "administrative_area_level_2", 
+            "political"
+          ]
+        }, 
+        {
+          "long_name": "Lombardia", 
+          "short_name": "Lombardia", 
+          "types": [
+            "administrative_area_level_1", 
+            "political"
+          ]
+        }, 
+        {
+          "long_name": "Italia", 
+          "short_name": "IT", 
+          "types": [
+            "country", 
+            "political"
+          ]
+        }, 
+        {
+          "long_name": "20137", 
+          "short_name": "20137", 
+          "types": [
+            "postal_code"
+          ]
+        }
+      ], 
+      "formatted_address": "Via Giovanni Cadolini, 20137 Milano MI, Italia", 
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 45.4499107, 
+            "lng": 9.221640800000001
+          }, 
+          "southwest": {
+            "lat": 45.4464982, 
+            "lng": 9.2199326
+          }
+        }, 
+        "location": {
+          "lat": 45.4484804, 
+          "lng": 9.221072
+        }, 
+        "location_type": "GEOMETRIC_CENTER", 
+        "viewport": {
+          "northeast": {
+            "lat": 45.4499107, 
+            "lng": 9.222135680291503
+          }, 
+          "southwest": {
+            "lat": 45.4464982, 
+            "lng": 9.219437719708498
+          }
+        }
+      }, 
+      "place_id": "ChIJ9wEYAC3EhkcRIORrNfd6KVQ", 
+      "types": [
+        "route"
+      ]
+    }
+  ], 
+  "status": "OK"
+}
