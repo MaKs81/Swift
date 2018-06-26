@@ -6,7 +6,7 @@
 //  Copyright © 2018 mm. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 typealias Kg = Double
 
@@ -17,6 +17,7 @@ class Animal{
     private var name : String?
     private var weight : Kg?
     private var birth : Date?
+    private var imageName : String?
     
     static var howMany = 0
     
@@ -24,7 +25,7 @@ class Animal{
         print("not implemented")
     }
     
-    init?(name: String?, weight: Kg?, birth: Date?) {
+    init?(name: String?, weight: Kg?, birth: Date?, imageName: String?) {
         
         guard let name = name, let weight = weight else{
             return nil
@@ -32,6 +33,7 @@ class Animal{
         
         self.name = name
         self.weight = weight
+        self.imageName = imageName
         if let birth = birth{
             self.birth = birth
         }else{
@@ -43,7 +45,7 @@ class Animal{
     }
     
     convenience init() {
-        self.init(name: "", weight: 0, birth: nil)!
+        self.init(name: "", weight: 0, birth: nil, imageName: nil)!
         //self.birth = Date()
     }
     
@@ -78,4 +80,13 @@ class Animal{
         return s
     }
     
+    var image : UIImage? {
+        get{
+            if let imageName = self.imageName{
+                let img = UIImage(named: imageName)
+                return img
+            }
+            return nil
+        }
+    }
 }

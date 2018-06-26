@@ -15,7 +15,7 @@ class Dog: Animal{
     }
     
     override func description() -> String {
-        return super.description() + " dog"
+        return "DOG " + super.description()
     }
     
 }
